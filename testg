@@ -1,0 +1,37 @@
+const lib = require('lib')({token: process.env.4HpLVeuJaW4bayKMsiCDMcnWFFNgtUYl
+});
+
+await lib.discord.channels['@0.3.2'].messages.create({
+  "channel_id": `${context.params.event.1114773656837562398}`,
+  "content": "",
+  "tts": false,
+  "embeds": [
+    {
+      "type": "rich",
+      "title": ` Fauz External`,
+      "description": "",
+      "color": 0x3dcbcb,
+      "fields": [
+        {
+          "name": `[ Misc ]`,
+          "value": `>  x64 Bypass\n> Auto Injector [ System Settings ] \n> Auto Config Loader [ File Workspace ]\n> Discord RP [ System Settings ]`,
+          "inline": true
+        },
+        {
+          "name": `[ Aimbot ] `,
+          "value": `> Prediction\n> Customizable Cam Shake [ Toggleable , Strength ]\n> Customizable Smoothness\n> Customizabale Fov [ Transparency, Radius Filled, Toggle, Color ]\n> Unlock on PDeath [ Toggleable ]\n> Unlock on TDeath [ Toggleable ]\n> Aimbot Modes [ Mouse & Cam, Cam, Mouse ]\n> Easing [ Styles And Directions ] \n> Koda 360 [ Speed, Keybind Customization ]\n`,
+          "inline": true
+        },
+        {
+          "name": `[ Silent ]`,
+          "value": `> Modes [ Regular, Target ]\n> Multiple Hitparts [ Up To 3 ]`,
+          "inline": true
+        },
+        {
+          "name": `[ More ] `,
+          "value": `> Aimbot Distance Slider [  1 - 1000 ]\n> Aimbot Mouse TP [ Custom Offsets ]\n> AA Resolver [ Custom, Underground , Sky AA ] \n> All Aimbot / Checks\n> FOVModes [ Silent / Aimbot ]\n> ESP [ Skeleton, Tracers , Name , Distance , Box ]\n> Perm Korblox [ Toggle ] \n> Perm Headless [ Toggle ]`
+        }
+      ]
+    }
+  ]
+});
